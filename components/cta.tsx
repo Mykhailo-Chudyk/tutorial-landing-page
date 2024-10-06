@@ -4,7 +4,7 @@ import Stripes from "@/public/images/stripes-dark.svg";
 export default function Cta() {
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 my-32">
         <div
           className="relative overflow-hidden rounded-2xl text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-gray-900"
           data-aos="zoom-y-out"
@@ -31,15 +31,18 @@ export default function Cta() {
           </div>
           <div className="px-4 py-12 md:px-12 md:py-20">
             <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
-              Create your next project with Simple
+              Join Our Slack Community
             </h2>
+            <h3 className="mb-8 text-lg text-gray-400 md:mb-12">
+              We’re in early development, working hard to build a platform where founders and ideators <br /> can exchange valuable feedback and refine their ideas with the help of like-minded entrepreneurs. <br /> <span className="font-extrabold">Join our Slack community now to be part of the first wave and get priority access to post <br /> your ideas when we launch.</span>
+            </h3>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a
                 className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                 href="#0"
               >
                 <span className="relative inline-flex items-center">
-                  Start Free Trial{" "}
+                  Redirect to Slack page{" "}
                   <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                     -&gt;
                   </span>
