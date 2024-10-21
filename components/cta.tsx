@@ -37,17 +37,17 @@ export default function Cta() {
               We’re in early development, working hard to build a platform where founders and ideators <br /> can exchange valuable feedback and refine their ideas with the help of like-minded entrepreneurs. <br /> <span className="font-extrabold">Join our Slack community now to be part of the first wave and get priority access to post <br /> your ideas when we launch.</span>
             </h3>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-              <a
-                className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                href="#0"
-              >
-                <span className="relative inline-flex items-center">
-                  Redirect to Slack page{" "}
-                  <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                    -&gt;
-                  </span>
+            <a
+              className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+              href="https://join.slack.com/t/id8crew/shared_invite/zt-2sy5h244i-vzMpL_Lt8Pzw1CnKOSjXqw"
+            >
+              <span className="relative inline-flex items-center">
+                Join us!
+                <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                  -&gt;
                 </span>
-              </a>
+              </span>
+            </a>
             </div>
           </div>
         </div>
